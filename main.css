@@ -28,6 +28,8 @@ ol > li:before {
 
 /* Nicer layout stuff */
 blockquote { font-style:italic; background-color: #779ECB; color:white; font-size:1.4em; padding:16px; margin-left:0; margin-right:0; }
+figure { margin:0; padding:8px; border:1px solid #dddddd; }
+figcaption { background-color:#dddddd; padding:4px; font-family:Alegreya;}
 img { max-width:100%; }
 
 /* Columnar format */
