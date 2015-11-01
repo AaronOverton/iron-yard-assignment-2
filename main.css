@@ -5,7 +5,7 @@ body { font-family: Lato; width:1024px; margin:0 auto; background-color: #779ECB
 div.wrapper { background-color:white; width:100%; margin:20px auto; padding:8%; }
 h1, h2 { font-family: Alegreya; }
 h1 { margin: 0; color: #113865; }
-h2 { color: #779ECB; border-bottom: 1px dashed #779ECB; }
+h2 { color: #779ECB; }
 ul { list-style-type: none; margin: 0; padding:0; }
 ol { margin: 0; padding: 0; list-style-position: inside; }
 li { padding:8px; background-color:#dddddd; margin:0 0 8px 0; }
@@ -21,5 +21,8 @@ div.columns {
     -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
     -moz-column-gap: 40px; /* Firefox */
     column-gap: 40px;
+    -webkit-column-rule: 1px solid #dddddd; /* Chrome, Safari, Opera */
+    -moz-column-rule: 1px solid #dddddd; /* Firefox */
+    column-rule: 1px solid #dddddd;
 }
 div.column { display:inline-block; width:100%; }
