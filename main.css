@@ -31,6 +31,9 @@ blockquote { font-style:italic; background-color: #779ECB; color:white; font-siz
 figure { margin:0; padding:8px; border:1px solid #dddddd; }
 figcaption { background-color:#dddddd; padding:4px; font-family:Alegreya;}
 img { max-width:100%; }
+a { color:#994D00; text-decoration:none; }
+a:hover { text-decoration:underline; }
+
 
 /* Columnar format */
 div.columns { 
