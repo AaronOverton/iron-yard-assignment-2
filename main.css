@@ -1,6 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
 @import url(https://fonts.googleapis.com/css?family=Alegreya:400,700);
 
+/* Change box model to the one I find intuitive and better than default */
+html { box-sizing: border-box; }
+*, *:before, *:after { box-sizing: inherit; }
+
 /* General layout */
 body { font-family: Lato; width:1024px; margin:0 auto; background-color: #779ECB; }
 div.wrapper { background-color:white; width:100%; margin:60px 0; padding:60px; }
@@ -34,7 +38,6 @@ img { max-width:100%; }
 a { color:#994D00; text-decoration:none; }
 a:hover { text-decoration:underline; }
 
-
 /* Columnar format */
 div.columns { 
     -webkit-column-count: 2; /* Chrome, Safari, Opera */
@@ -47,4 +50,4 @@ div.columns {
     -moz-column-rule: 1px solid #dddddd; /* Firefox */
     column-rule: 1px solid #dddddd;
 }
-div.column { display:inline-block; width:100%; }
+div.column { display:inline-block; width:99%; }
