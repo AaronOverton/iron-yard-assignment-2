@@ -1,15 +1,25 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
 @import url(https://fonts.googleapis.com/css?family=Alegreya:400,700);
 
-body { font-family: Lato; max-width:1024px; margin:0 auto; }
+body { font-family: Lato; width:1024px; margin:0 auto; background-color: #779ECB; }
+div.wrapper { background-color:white; width:100%; margin:20px auto; padding:8%; }
 h1, h2 { font-family: Alegreya; }
 h1 { margin-bottom: 0; color: #113865; }
 h2 { color: #779ECB; border-bottom: 1px dashed #779ECB; }
-div { float:left; width:44%; padding: 0 6% 0 0; }
-ul { list-style-type: none; margin: 0; padding: 0; }
+ul { list-style-type: none; margin: 0; padding:0; }
 ol { margin: 0; padding: 0; list-style-position: inside; }
 li { padding:8px; background-color:#dddddd; margin:0 0 8px 0; }
 li.is-parent { background-color: transparent; }
 ul li { border-left: 4px solid #666666; }
 blockquote { font-style:italic; background-color: #779ECB; color:white; font-size:1.4em; padding:16px; margin-left:0; margin-right:0; }
 img { max-width:100%; }
+
+div.columns { 
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+}
+div.column { display:inline-block; width:100%; }
