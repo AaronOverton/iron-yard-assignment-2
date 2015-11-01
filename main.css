@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Alegreya:400,700);
 
 body { font-family: Lato; width:1024px; margin:0 auto; background-color: #779ECB; }
-div.wrapper { background-color:white; width:100%; margin:20px auto; padding:8%; }
+div.wrapper { background-color:white; width:100%; margin:60px 0; padding:60px; }
 h1, h2 { font-family: Alegreya; }
 h1 { margin: 0; color: #113865; }
 h2 { color: #779ECB; }
@@ -18,9 +18,9 @@ div.columns {
     -webkit-column-count: 2; /* Chrome, Safari, Opera */
     -moz-column-count: 2; /* Firefox */
     column-count: 2;
-    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
-    -moz-column-gap: 40px; /* Firefox */
-    column-gap: 40px;
+    -webkit-column-gap: 80px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 80px; /* Firefox */
+    column-gap: 80px;
     -webkit-column-rule: 1px solid #dddddd; /* Chrome, Safari, Opera */
     -moz-column-rule: 1px solid #dddddd; /* Firefox */
     column-rule: 1px solid #dddddd;
