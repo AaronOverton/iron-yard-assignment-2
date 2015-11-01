@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Alegreya:400,700);
+
+/* Change box model to the one I find intuitive and better than default */
+html { box-sizing: border-box; }
+*, *:before, *:after { box-sizing: inherit; }
+
+/* General layout */
+body { font-family: Lato; width:1024px; margin:0 auto; background-color: #779ECB; }
+div.wrapper { background-color:white; width:100%; margin:60px 0; padding:60px; }
+
+/* Headings */
+h1, h2 { font-family: Alegreya; }
+h1 { margin: 0; color: #113865; }
+h2 { color: #779ECB; }
+
+/* Lists */
+ul { list-style-type: none; margin: 0; padding:0; }
+ul > li { border-left: 4px solid #666666; padding:8px; background-color:#dddddd; margin:0 0 8px 0; }
+
+ol { margin: 0; padding: 0; list-style: none; counter-reset:li; }
+ol > li { position:relative; margin: 0 0 8px 2em; padding:8px; background-color:#dddddd; }
+ol > li:before {
+	content:counter(li);
+	counter-increment:li;
+	position:absolute;
+	margin-left:-2em;
+	font-weight:bold;
+	font-size:2em;
+	margin:-0.35em 0 0 -1.2em;
+	color:#779ECB;
+	font-family:Alegreya;
+	font-size:1.8em;
+}
+
+/* Nicer layout stuff */
+blockquote { font-style:italic; background-color: #779ECB; color:white; font-size:1.4em; padding:16px; margin-left:0; margin-right:0; }
+figure { margin:0; padding:8px; border:1px solid #dddddd; }
+figcaption { background-color:#dddddd; padding:4px; font-family:Alegreya;}
+img { max-width:100%; }
+a { color:#994D00; text-decoration:none; }
+a:hover { text-decoration:underline; }
+
+/* Columnar format */
+div.columns { 
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 80px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 80px; /* Firefox */
+    column-gap: 80px;
+    -webkit-column-rule: 1px solid #dddddd; /* Chrome, Safari, Opera */
+    -moz-column-rule: 1px solid #dddddd; /* Firefox */
+    column-rule: 1px solid #dddddd;
+}
+div.column { display:inline-block; width:99%; }
